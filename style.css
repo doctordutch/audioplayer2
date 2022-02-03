@@ -1,0 +1,111 @@
+body {
+  background: linear-gradient(to right, rgb(29, 102, 131), rgb(175, 211, 223));
+}
+
+#container {
+  background-color: transparent;
+  width: 300px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 0px;
+  color: #D5E3E6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .9em;
+  border: 1px solid #bdbbc4;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#top {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to right, rgb(29, 102, 131), #5e4da8);
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+div {
+  margin: 0px;
+  text-align: center;
+  padding: 0px;
+}
+
+#wrapper {
+  background: linear-gradient(0.25turn, #3f87a6, #322b50, #5e4da8);
+  padding: 8px;
+  border-radius: 20px;
+  box-shadow: 5px 3px 5px #888888;
+}
+
+#controls div, #timeInfo div {
+  display: table-cell;
+  vertical-align:middle;
+}
+
+#volumeSlider {
+  width:70px;
+  height:10px;
+  background-color: #DBDBDB;
+}
+
+#volumeSlider div {
+  height:inherit;
+}
+
+#timeText {
+  padding-left: 10px;
+}
+
+#timeInfo {
+  margin: 5px 3px;
+  padding-left: 5px;
+  padding-right: 10px;
+} 
+
+#timeBar {
+  margin: auto;
+  width:250px;
+  height:10px;
+  background-color: #DBDBDB;
+}
+
+#timeBar div {
+  height:inherit;
+  margin-right: 10px;
+}
+
+#volumeIcon{
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.filler {
+  width: inherit;
+  background-color: #BAB9B8;
+}
+
+.button {
+  background-color: #8C8A89;
+  padding: 2px;
+  border-radius: 32px;
+  width:32px;
+  height:32px;
+  cursor: pointer;
+}
+
+.button img {
+  width:16px;
+  margin-left: 2px;
+  margin-top:4px;
+}
